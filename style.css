@@ -1,0 +1,91 @@
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+a {
+	background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.intro {
+	color: red;
+    opacity: .7;
+}
+
+.banner {
+	background-position: center;
+	color: white;
+	font-size: 24px;
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0;
+	background-image: url(images/background.jpg);
+}
+
+.container {
+    margin: auto;
+    position: center;
+}
+
+.campus-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    padding: 24px;
+    flex-grow: 1;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer {
+	background-color: #404042;
+	text-align: center;
+	padding: 24px;
+	color: white;	
+}
+
+div {
+	display: block;
+}
+
+@media (max-width: 800px) {
+  .campus-section {
+    grid-template-columns: 1fr;
+  }
+}
