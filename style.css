@@ -37,6 +37,13 @@ a:hover {
 	background-image: url(background.jpg);
 }
 
+#map {
+    margin: auto;
+    position: center;
+    padding: 150px 0;
+    background-position: center;
+}
+
 .container {
     margin: auto;
     position: center;
